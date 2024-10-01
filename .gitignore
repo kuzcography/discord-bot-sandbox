@@ -1,2 +1,2 @@
-
-/basic_ping/target
+**/target/
+**/*.env
