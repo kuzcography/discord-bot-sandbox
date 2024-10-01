@@ -1,14 +1,11 @@
 use dotenv::dotenv;
 use std::env;
 use serenity::async_trait;
-use serenity::builder::{CreateInteractionResponse, CreateInteractionResponseMessage};
-use serenity::model::application::{Command, Interaction};
-use serenity::model::application::ResolvedOption;
+use serenity::builder::{CreateInteractionResponse, CreateInteractionResponseMessage,CreateCommand, CreateCommandOption};
+use serenity::model::application::{Command, Interaction, CommandOptionType,ResolvedOption};
 use serenity::model::gateway::Ready;
 use serenity::model::id::GuildId;
 use serenity::prelude::*;
-use serenity::model::application::CommandOptionType;
-use serenity::builder::{CreateCommand, CreateCommandOption};
 
 struct Handler;
 
