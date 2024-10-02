@@ -1,5 +1,5 @@
 [package]
-name = "basic_command_slash"
+name = "command_slash_no_option"
 version = "0.1.0"
 edition = "2021"
 
