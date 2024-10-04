@@ -1,8 +1,10 @@
+mod commands;
+
 use dotenv::dotenv;
 use std::env;
 use serenity::async_trait;
-use serenity::builder::{CreateInteractionResponse, CreateInteractionResponseMessage,CreateCommand};
-use serenity::model::application::Interaction;
+use serenity::builder::{CreateInteractionResponse,CreateInteractionResponseMessage,CreateCommand, CreateCommandOption};
+use serenity::model::application::{Interaction,CommandOptionType};
 use serenity::model::gateway::Ready;
 use serenity::model::id::GuildId;
 use serenity::prelude::*;
@@ -14,15 +16,21 @@ impl EventHandler for Handler {
     async fn interaction_create(&self, ctx: Context, interaction: Interaction) {
         if let Interaction::Command(command) = interaction {
             // println!("Received command interaction: {command:#?}"); 
-            match command.data.name.as_str() {
+            let content = match command.data.name.as_str() {
                 "ping" => {
-                    println!("Ping is working");
-                    let resp = CreateInteractionResponseMessage::new().content("Ping is working");
-                    let builder = CreateInteractionResponse::Message(resp);
-                    if let Err(why) = command.create_response(&ctx.http, builder).await {
-                        println!("Cannot respond to slash command: {why}");
-                    }},
-                _ => {println!("No match")}
+                    println!("Ping is working!");
+                    commands::ping::run_ping()
+                },
+                "search" => {
+                    println!("Search is working!");
+                    commands::search::run_search()
+                },
+                _ => {"Error".to_string()}
+            };
+            let data = CreateInteractionResponseMessage::new().content(content);
+            let builder = CreateInteractionResponse::Message(data);
+            if let Err(why) = command.create_response(&ctx.http, builder).await {
+                println!("Cannot respond to slash command: {why}");
             }
         }
     }
@@ -37,7 +45,31 @@ impl EventHandler for Handler {
         );
         let _ = guild_id.set_commands(&ctx.http, vec![
                 CreateCommand::new("ping")
-                    .description("/ping : command to test if the bot is active")
+                    .description("/ping : command to test if the bot is active"),
+                CreateCommand::new("search")
+                    .description("/search : command looking for a movie, series, ...")
+                    .add_option(CreateCommandOption::new(CommandOptionType::String, "platform", "which stream platform to choose")
+                        .required(true)
+                        .add_string_choice(
+                            "astream",
+                            "astream"
+                        )
+                        .add_string_choice(
+                            "bstream",
+                            "bstream"
+                        )
+                        .add_string_choice(
+                            "cstream",
+                            "cstream"
+                        )
+                        .add_string_choice(
+                            "dstream",
+                            "dstream"
+                        )
+                    )
+                    .add_option(CreateCommandOption::new(CommandOptionType::String, "name", "name of movie, series, ...")
+                        .required(true)
+                    )
         ]).await;
     }
 }
