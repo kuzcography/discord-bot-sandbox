@@ -1,2 +1,2 @@
 # discord_bot
-some personal bot discord with serenity
+Some personal bot discord with serenity
