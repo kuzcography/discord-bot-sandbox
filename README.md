@@ -8,8 +8,8 @@
         Created by <a href="https://github.com/kuzcography">kuzcography</a>
         <br />  
     </p>
-    ![Static Badge](https://img.shields.io/badge/twitter-kuzco-kuzco?link=https%3A%2F%2Fx.com%2Fkuzcography)
 </div>
+![Static Badge](https://img.shields.io/badge/twitter-kuzco-kuzco?link=https%3A%2F%2Fx.com%2Fkuzcography)
 
 ## Table of Contents
 
