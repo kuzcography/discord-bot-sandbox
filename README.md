@@ -1,5 +1,5 @@
 <div align="center">
-    <p style="font-size: 2em; font-weight: bold; margin: 0;">Discord bot</p>
+    <strong style="font-size: 2em;">Discord bot</strong>
     <p align="center">
         This repository contains several of my discord bots 
         <br />
