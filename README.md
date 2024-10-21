@@ -1,7 +1,11 @@
 <div align="center">
-    <h3 align="center">Discord bot</h3>
+    <h1 align="center">Discord bot</h3>
     <p align="center">
-        <a href="https://github.com/kuzcography">Created by kuzcography</a>
+        This repository contains several of my discord bots 
+        <br />
+    </p>
+    <p align="center">
+        Created by <a href="https://github.com/kuzcography">kuzcography</a>
         <br />
     </p>
 </div>
