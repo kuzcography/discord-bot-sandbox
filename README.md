@@ -1,4 +1,10 @@
-<h1 align="center">Discord-Bot</h1>
+<div align="center">
+    <h3 align="center">Discord bot</h3>
+    <p align="center">
+        <a href="https://github.com/kuzcography">Created by kuzcography</a>
+        <br />
+    </p>
+</div>
 
 ## Table of Contents
 
