@@ -1,5 +1,5 @@
 <div align="center">
-    <h1 align="center">Discord bot</h1>
+    <h1 align="center" style="text-decoration: none;">Discord bot</h1>
     <p align="center">
         This repository contains several of my discord bots 
         <br />
