@@ -1,5 +1,9 @@
 <div align="center">
-    <h1 align="center">Discord bot</h3>
+    <h1 align="center">Discord bot</h1>
+    <p align="center">
+        This repository contains several of my discord bots 
+        <br />
+    </p>
     <p align="center">
         Created by <a href="https://github.com/kuzcography">kuzcography</a>
         <br />
