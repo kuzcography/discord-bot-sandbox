@@ -29,20 +29,28 @@
 
 ### Description
 
-This repository brings together various Discord bots I've created to handle various situations (pinging, answering commands, moderating, etc.) on Discord servers. This is mainly a personal project for learning purposes, not for deployment.
+This repository brings together various Discord bots in the form of mini-projects. They are mainly created to handle various situations (pinging, answering commands, moderation, etc.) on Discord servers. This is mainly a personal project for learning purposes, not for deployment.
+
+### Repository explanation
+
+This repository is structured as a bot discord mini-project. You can see that each folder is a mini-project with a specific name.
 
 ## Getting started
 
 ### Prerequisites
 
+This project has several mini-projects so I invite you to see the prerequisites for each of them. However, here are the global prerequisites:
+- **Rust** (1.56.0 or higher) - Install from [rust-lang.org](https://www.rust-lang.org/tools/install)
+- **Cargo** - Comes with Rust installation.
+- **A Discord Bot Token** - Create one via the [Discord Developer Portal](https://discord.com/developers/applications).
 
 
 ### Installation
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+I invite you to see how to install each mini-project correctly directly via their own README.md.
 
 ## Contact
 
 ### How to contact me
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+You can contact me via my various social networks and discord.
