@@ -1,4 +1,13 @@
 <div align="center">
+    <img alt="Static Badge" src="https://img.shields.io/badge/project_type-personnal-%23507c84?style=flat&logo=pinboard&labelColor=%234f5765&color=%236f61ef">
+    &nbsp;&nbsp;
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kuzcography/discord-bot?style=flat&logo=transmission&labelColor=%234f5765&color=%238f6fa1">
+</div>
+<br />
+<div align="center">
+    <div>
+      <img width="150" height="150" src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-1-1.png" alt="discord-logo">
+    </div>
     <h3 align="center">Discord bot</h3>
     <p align="center">
         This repository contains several of my discord bots
@@ -9,10 +18,6 @@
         <br />  
     </p>
 </div>
-<img alt="Static Badge" src="https://img.shields.io/badge/twitter-kuzco-kuzco?link=https%3A%2F%2Fx.com%2Fkuzcography">
-![Static Badge](https://img.shields.io/badge/twitter-kuzco-blue)
-![Version](https://img.shields.io/badge/version-v1.0-blue)
-
 
 ## Table of Contents
 
