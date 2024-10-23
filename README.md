@@ -29,7 +29,7 @@
 
 ## Introduction
 
-This repository serves as a sandbox for experimenting with various Discord bots. These bots are designed to handle different scenarios (such as pinging, responding to commands, and moderation) on Discord servers. This is primarily a personal endeavor aimed at learning and exploring bot development, rather than for deployment.
+This repository serves as a sandbox for experimenting with various Discord bots in the form of mini-projects. These mini-projects are designed to handle different scenarios (such as pinging, responding to commands, moderation, etc.) on Discord servers. This is primarily a personal endeavor aimed at learning and exploring Discord bot development rather than for deployment.
 
 ## Installation
 
@@ -37,6 +37,13 @@ Global prerequisites:
 - **Rust** (1.56.0 or higher) - Install from [rust-lang.org](https://www.rust-lang.org/tools/install)
 - **Cargo** - Comes with Rust installation.
 - **A Discord Bot Token** - Create one via the [Discord Developer Portal](https://discord.com/developers/applications).
+
+How to run a mini-project:
+```bash
+cd file-name
+cargo build
+cargo run
+```
 
 ## Contact
 
