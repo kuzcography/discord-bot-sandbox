@@ -1,9 +1,9 @@
 <div align="center">
     <img alt="Static Badge" src="https://img.shields.io/badge/repository_type-personnal_sandbox-%23507c84?style=flat&logo=pinboard&labelColor=%234f5765&color=%236f61ef">
     &nbsp;&nbsp;
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kuzcography/discord-bot?style=flat&logo=transmission&labelColor=%234f5765&color=%238f6fa1">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kuzcography/discord-bot-sandbox?style=flat&logo=transmission&labelColor=%234f5765&color=%238f6fa1">
     &nbsp;&nbsp;
-    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/kuzcography/discord-bot?style=flat&labelColor=%234f5765&color=78A083">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/kuzcography/discord-bot-sandbox?style=flat&labelColor=%234f5765&color=78A083">
 </div>
 <br />
 <div align="center">
@@ -39,7 +39,7 @@ Global prerequisites:
 
 Where to find guild id token (server token):
 ![image](https://github.com/user-attachments/assets/23ccb697-200a-425b-89ae-9f6315d7d41b)
-Where to find discord bot token :
+Where to find bot token :
 ![image](https://github.com/user-attachments/assets/07790626-8a9d-4a6d-9213-34075d4e334e)
 
 How to run a mini-project:
