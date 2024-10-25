@@ -36,7 +36,11 @@ This repository serves as a sandbox for experimenting with various Discord bots 
 Global prerequisites:
 - **Rust** (1.56.0 or higher) - Install from [rust-lang.org](https://www.rust-lang.org/tools/install)
 - **Cargo** - Comes with Rust installation.
-- **A Discord Bot Token** - Create one via the [Discord Developer Portal](https://discord.com/developers/applications).
+
+Where to find guild id token (server token):
+![image](https://github.com/user-attachments/assets/23ccb697-200a-425b-89ae-9f6315d7d41b)
+Where to find discord bot token :
+![image](https://github.com/user-attachments/assets/07790626-8a9d-4a6d-9213-34075d4e334e)
 
 How to run a mini-project:
 ```bash
