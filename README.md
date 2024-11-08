@@ -51,8 +51,8 @@ cargo run
 
 ## Contact
 
-You can contact me via my various social networks and discord.
+You can contact me via discord.
 
-<img alt="Static Badge" src="https://img.shields.io/badge/%23kuzcography-blue?style=for-the-badge&logo=Discord&logoColor=white&color=%235865F2"> &nbsp;&nbsp; <img alt="Static Badge" src="https://img.shields.io/badge/%40kuzcography-blue?style=for-the-badge&logo=X&logoColor=white"> &nbsp;&nbsp; <img alt="Static Badge" src="https://img.shields.io/badge/u%2FKuzcography-blue?style=for-the-badge&logo=Reddit&logoColor=white&color=%23FF4500">
+<img alt="Static Badge" src="https://img.shields.io/badge/%23kuzcography-blue?style=for-the-badge&logo=Discord&logoColor=white&color=%235865F2">
 
 
